@@ -1,0 +1,17 @@
+
+.container{
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.image{
+    width: 250px;
+    margin-top: 10px;
+}
+.tab{
+    background-color: rgb(158, 157, 157);
+}
+
