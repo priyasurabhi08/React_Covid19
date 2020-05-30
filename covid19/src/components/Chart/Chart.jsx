@@ -30,7 +30,7 @@ const Chart =({data:{confirmed,deaths,recovered},country})=>{
                     label:'Infected',
                     borderColor:'blue',
                     fill:true,
-                    backgroundColor:'rgba(0, 0,255,1)'
+                    backgroundColor:'rgba(0, 0,255,0.5)'
 
                 },{
                     data:dailyData.slice(Math.max(dailyData.length - 30, 0)).map(({deaths})=>deaths),
